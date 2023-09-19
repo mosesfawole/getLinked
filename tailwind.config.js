@@ -6,6 +6,7 @@ export default {
       title: ["Clash display", "sans-serif"],
       body: ["Montserrat", "sans-serif"],
       inter: ["Inter", "sans-serif"],
+      unica: ["Unica One", "cursive"],
     },
 
     extend: {
