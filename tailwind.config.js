@@ -5,8 +5,16 @@ export default {
     fontFamily: {
       title: ["Clash display", "sans-serif"],
       body: ["Montserrat", "sans-serif"],
+      inter: ["Inter", "sans-serif"],
     },
-    extend: {},
+
+    extend: {
+      colors: {
+        default: "#150E28",
+        common: "#D434FE",
+        white: "#FFFFFF",
+      },
+    },
   },
   plugins: [],
 };

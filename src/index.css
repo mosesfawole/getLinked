@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Poppins&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,8 +9,21 @@
   box-sizing: border-box;
 }
 
-/* body {
-  font-family: "Clash Display", sans-serif;
-  font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
-} */
+body {
+  background-color: #150e28;
+  color: white;
+}
+
+button {
+  background: none;
+  width: 24px;
+  height: 24px;
+}
+
+.border-gradient {
+  border: 1px solid;
+  border-image-slice: 1;
+}
+.border-gradient-purple {
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}

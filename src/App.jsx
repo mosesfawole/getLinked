@@ -1,7 +1,10 @@
+import Header from "./components/Header";
+// import { Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <p className="font-title font-bold">Hello world</p>
+      <Header />
+      <hr className="" />
     </>
   );
 }
