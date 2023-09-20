@@ -52,12 +52,12 @@ const data = {
     image: rulesImg,
   },
   criteria: {
-    title: "Judgin Criteria",
+    title: "Judging Criteria",
     title2: "Key Attributes",
     text: [
       {
         title: "Innovation and Creativity:",
-        body: " Evaluate the uniqueness and creativity of the solution. Consider whether it addresses a real-world problem in a novel way or introduces innovative features.",
+        body: "Evaluate the uniqueness and creativity of the solution. Consider whether it addresses a real-world problem in a novel way or introduces innovative features.",
       },
       {
         title: "Functionality:",
