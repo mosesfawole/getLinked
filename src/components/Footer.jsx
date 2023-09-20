@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <div>
       Footer
-      <div className="px-8 py-8  flex flex-col gap-8 ">
-        <div className="top">
+      <div className="px-8 py-8  flex flex-col gap-8 md:flex-row md:justify-evenly ">
+        <div className="top  basis-1/3">
           <div className="logo">
-            <p className="font-title font-bold text-xl flex">
+            <p className="font-title font-bold text-xl flex md:text-3xl">
               {" "}
               <span className="">get</span>{" "}
               <span className="text-common">linked</span>
@@ -40,7 +40,7 @@ const Footer = () => {
             </ul>
           ))}
           <div className="flex gap-6 items-center ">
-            <h1 className="font-body text-xs text-common mt-4">Follow us</h1>
+            <h1 className="font-body text-xs text-common mt-4 ">Follow us</h1>
             {footer.socialMedia.map((logo, index) => (
               <ul className="mt-2" key={index}>
                 <li>
@@ -50,7 +50,7 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="contact mt-8 flex flex-col gap-4">
+        <div className="contact mt-8 md:mt-0 flex flex-col gap-4">
           <div className="title">
             <h1 className="font-body font-semibold text-common">Contact Us</h1>
           </div>
@@ -61,7 +61,7 @@ const Footer = () => {
                   {" "}
                   <img src={item.icon} alt="icon" />{" "}
                 </span>
-                <span className={index === 1 && "basis-[16%]"}>
+                <span className={index === 1 && "basis-[16%] md:basis-1/3"}>
                   {item.body}
                 </span>
               </li>
