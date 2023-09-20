@@ -28,7 +28,8 @@ button {
 }
 .hero,
 .rules,
-.criteria {
+.criteria,
+.rewards {
   background-image: url("./assets/Purple-Lens-Flare-PNG.png");
   /* background-repeat: no-repeat; */
 }
@@ -39,4 +40,10 @@ button {
 hr {
   background-color: #ffffff2e;
   color: #ffffff2e;
+}
+
+.flare-right {
+  background-image: url("./assets/Purple-Lens-Flare-right\ PNG\ \(1\).png");
+  background-position: right;
+  background-repeat: no-repeat;
 }

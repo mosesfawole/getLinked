@@ -20,7 +20,7 @@ const Criteria = () => {
           </div>
           <div className="flex gap-8 flex-col text-body">
             {criteria.text.map((item, index) => (
-              <div className="font-body" key={index}>
+              <div className="font-body text-left" key={index}>
                 <span className=" font-bold text-sm text-[#FF26B9]">
                   {" "}
                   {item.title}

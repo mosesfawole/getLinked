@@ -7,6 +7,8 @@ import bigIdea from "../assets/The big idea.svg";
 import arrow from "../assets/arrow.svg";
 import rulesImg from "../assets/7450159 1.svg";
 import criteriaImg from "../assets/8046554 1.svg";
+import trophy from "../assets/9486889 1.svg";
+import rewardImg from "../assets/Rewards.svg";
 const data = {
   navbar: {
     links: [
@@ -57,7 +59,7 @@ const data = {
     text: [
       {
         title: "Innovation and Creativity:",
-        body: "Evaluate the uniqueness and creativity of the solution. Consider whether it addresses a real-world problem in a novel way or introduces innovative features.",
+        body: " Evaluate the uniqueness and creativity of the solution. Consider whether it addresses a real-world problem in a novel way or introduces innovative features.",
       },
       {
         title: "Functionality:",
@@ -73,10 +75,17 @@ const data = {
       },
       {
         title: "Adherence to Hackathon rules:",
-        body: "Judges will Ensure that the team adhered to the rules and guidelines of the hackathon, including deadlines, use of specific technologies or APIs, and any other competition-specific requirements. ",
+        body: " Judges will Ensure that the team adhered to the rules and guidelines of the hackathon, including deadlines, use of specific technologies or APIs, and any other competition-specific requirements. ",
       },
     ],
     image: criteriaImg,
+  },
+  reward: {
+    title: "Prizes and",
+    subtitle: "Rewards",
+    text: "Highlight of the prizes or rewards for winners and for participants.",
+    trophy: trophy,
+    image: rewardImg,
   },
 };
 
