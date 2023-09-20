@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Introduction from "./components/Introduction";
 // import { Route } from "react-router-dom";
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Header />
       <hr className="" />
       <Hero />
+      <Introduction />
     </>
   );
 }

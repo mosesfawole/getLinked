@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
       <div className="">
         <div className=" flex  flex-col justify-center items-center md:flex-row">
-          <div className="wrap">
+          <div className="wrap flex flex-col justify-center items-center md:block">
             <div className="title font-title">
               <div className="absolute left-0 top-0">
                 <img
@@ -32,10 +32,10 @@ const Hero = () => {
                     alt="creative"
                   />
                 </span>
-                <p className=" text-3xl font-bold md:text-[80px] md:leadng-[98px] md:mb-16">
+                <p className=" text-3xl font-bold md:text-[80px]  md:mb-16">
                   {hero.titleTop}
                 </p>
-                <p className="flex gap-1 text-3xl font-bold md:text-[80px] md:leadng-[98px] md:mb-8">
+                <p className="flex gap-1 text-3xl font-bold md:text-[80px]  md:mb-8">
                   {`${hero.titleDown}`}{" "}
                   <span className="text-common"> 1.0</span>{" "}
                   <span className="flex">
