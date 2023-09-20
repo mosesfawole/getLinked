@@ -9,6 +9,23 @@ import rulesImg from "../assets/7450159 1.svg";
 import criteriaImg from "../assets/8046554 1.svg";
 import trophy from "../assets/9486889 1.svg";
 import rewardImg from "../assets/Rewards.svg";
+
+// import libertyWhite from "../assets/Liberty company logo white colour.svg";
+// import libertyPay from "../assets/Liberty company logo white.svg";
+// import winWise from "../assets/Winwise logo White colour 1.svg";
+// import whisperLogo from "../assets/wisper logo white.svg";
+// import payboxLogo from "../assets/Paybox.svg";
+// import vuzualPlus from "../assets/Vizual Plus.svg";
+import allLogo from "../assets/Partner and sponsors section.svg";
+
+import insta from "../assets/mdi_instagram.svg";
+import twitter from "../assets/Vector.svg";
+import facebook from "../assets/facebook.svg";
+import linkedin from "../assets/linkedin.svg";
+
+import locationIcon from "../assets/location.svg";
+import phone from "../assets/phone.svg";
+
 const data = {
   navbar: {
     links: [
@@ -86,6 +103,51 @@ const data = {
     text: "Highlight of the prizes or rewards for winners and for participants.",
     trophy: trophy,
     image: rewardImg,
+  },
+  partners: {
+    title: "Partners and Sponsors",
+    text: "Getlinked Hackathon 1.0 is honored to have the following major companies as its partners and sponsors",
+    logos: [
+      // libertyWhite,
+      // libertyPay,
+      // winWise,
+      // whisperLogo,
+      // payboxLogo,
+      // vuzualPlus,
+      allLogo,
+    ],
+  },
+  footer: {
+    text: "Getlinked Tech Hackathon is a technology innovation program established by a group of organizations with the aim of showcasing young and talented individuals in the field of technology",
+    links: [
+      {
+        text: "Overview",
+        url: "/",
+      },
+      {
+        text: "Timeline",
+        url: "/",
+      },
+      {
+        text: "FAQs",
+        url: "/",
+      },
+      {
+        text: "Register",
+        url: "/",
+      },
+    ],
+    contact: [
+      {
+        icon: phone,
+        body: "+234 6707653444",
+      },
+      {
+        icon: locationIcon,
+        body: "27,Alara Street Yaba 100012 Lagos State ",
+      },
+    ],
+    socialMedia: [insta, twitter, facebook, linkedin],
   },
 };
 

@@ -2,7 +2,7 @@ import data from "../lib/data";
 const Rewards = () => {
   const { reward } = data;
   return (
-    <div className="rewards  bg-no-repeat  text-center px-8 mt-20 md:px-0 md:flex md:flex-row-reverse md:text-start md:justify-center ">
+    <div className="rewards git  bg-no-repeat  text-center px-8 mt-20 md:px-0 md:flex md:flex-row-reverse md:text-start md:justify-center ">
       <div className="top md:flex md:flex-col ">
         <div className="font-title font-bold text-xl">
           <h1>{reward.title}</h1>
