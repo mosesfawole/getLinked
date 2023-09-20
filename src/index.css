@@ -26,3 +26,17 @@ button {
 .border-gradient-purple {
   border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
 }
+.hero,
+.rules,
+.criteria {
+  background-image: url("./assets/Purple-Lens-Flare-PNG.png");
+  /* background-repeat: no-repeat; */
+}
+.second {
+  background-image: url("./assets/Purple-Lens-Flare-right\ PNG\ \(1\).png");
+}
+
+hr {
+  background-color: #ffffff2e;
+  color: #ffffff2e;
+}

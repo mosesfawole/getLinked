@@ -4,7 +4,7 @@ import Button from "./Button";
 const Hero = () => {
   const { hero } = data;
   return (
-    <div className="hero flex flex-col gap-6 p-4 md:px-14">
+    <div className="hero bg-no-repeat flex flex-col gap-6 p-4 md:px-14">
       <div className="top flex items-center justify-center md:justify-end md:px-11 ">
         <p className="font-body font-bold text-[16px] leading-5 md:text-4xl italic  ">
           Igniting a Revolution in HR Innovation
@@ -12,16 +12,9 @@ const Hero = () => {
         <span></span>
       </div>
       <div className="">
-        <div className=" flex  flex-col justify-center items-center md:flex-row">
+        <div className="flex  flex-col justify-center items-center md:flex-row">
           <div className="wrap flex flex-col justify-center items-center md:block">
             <div className="title font-title">
-              <div className="absolute left-0 top-0">
-                <img
-                  className="w-full h-full "
-                  src="/src/assets/Purple-Lens-Flare-PNG.png"
-                  alt="purple"
-                />
-              </div>
               <div className="relative md:flex flex-col ">
                 <span className="flex justify-end">
                   <img
