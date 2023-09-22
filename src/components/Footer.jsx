@@ -61,7 +61,7 @@ const Footer = () => {
                   {" "}
                   <img src={item.icon} alt="icon" />{" "}
                 </span>
-                <span className={index === 1 && "basis-[16%] md:basis-1/3"}>
+                <span className={index === 1 && "basis-2/5 md:basis-1/3"}>
                   {item.body}
                 </span>
               </li>

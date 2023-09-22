@@ -144,7 +144,7 @@ const data = {
       },
       {
         icon: locationIcon,
-        body: "27,Alara Street Yaba 100012 Lagos State ",
+        body: "27, Alara Street Yaba 100012 Lagos State ",
       },
     ],
     socialMedia: [insta, twitter, facebook, linkedin],
