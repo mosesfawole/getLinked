@@ -25,10 +25,10 @@ const Hero = () => {
                     alt="creative"
                   />
                 </span>
-                <p className=" text-3xl font-bold md:text-[80px]  md:mb-16">
+                <p className=" text-3xl font-bold md:text-[80px] md:leading-[98px]  ">
                   {hero.titleTop}
                 </p>
-                <p className="flex gap-1 text-3xl font-bold md:text-[80px]  md:mb-8">
+                <p className="flex gap-1 text-3xl font-bold md:text-[80px] md:leading-[98px] ">
                   {`${hero.titleDown}`}{" "}
                   <span className="text-common"> 1.0</span>{" "}
                   <span className="flex">
@@ -49,7 +49,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="text flex mt-2 mb-4 ">
-              <p className="font-body px-10 font-regular text-[13px] md:text-xl text-start md:px-0">
+              <p className="font-body px-10 font-regular text-[13px] md:text-xl text-center md:text-start md:px-0">
                 {hero.text}
               </p>
             </div>

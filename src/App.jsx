@@ -1,4 +1,5 @@
 import Criteria from "./components/Criteria";
+import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -6,6 +7,7 @@ import Introduction from "./components/Introduction";
 import Partners from "./components/Partners";
 import Rewards from "./components/Rewards";
 import Rules from "./components/Rules";
+// import Timeline from "./components/Timeline";
 // import { Route } from "react-router-dom";
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       <Rules />
       <hr />
       <Criteria />
+      <Faq />
       {/*  */}
       {/*  */}
       <Rewards />

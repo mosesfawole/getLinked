@@ -9,7 +9,7 @@ import rulesImg from "../assets/7450159 1.svg";
 import criteriaImg from "../assets/8046554 1.svg";
 import trophy from "../assets/9486889 1.svg";
 import rewardImg from "../assets/Rewards.svg";
-
+import faqImage from "../assets/cwok_casual_21 1.svg";
 // import libertyWhite from "../assets/Liberty company logo white colour.svg";
 // import libertyPay from "../assets/Liberty company logo white.svg";
 // import winWise from "../assets/Winwise logo White colour 1.svg";
@@ -149,6 +149,51 @@ const data = {
     ],
     socialMedia: [insta, twitter, facebook, linkedin],
   },
+  faq: {
+    title: "Frequently Ask",
+    subtitle: "Question",
+    text: "We got answers to the questions that you might want to ask about",
+    image: faqImage,
+  },
+
+  faqs: [
+    {
+      id: 1,
+      question: "Can I work on a project I started before the hackathon?",
+      answer:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae rem ad quod ea maxime qui, ",
+    },
+    {
+      id: 2,
+      question: "What happens if I need help during the hackathon?",
+      answer:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae rem ad quod ea maxime qui,",
+    },
+    {
+      id: 3,
+      question: "What happens if I don't have an idea for a project?",
+      answer:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae rem ad quod ea maxime qui,",
+    },
+    {
+      id: 4,
+      question: "Can I join a team or do I have to come with one?",
+      answer:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae rem ad quod ea maxime qui,",
+    },
+    {
+      id: 5,
+      question: "What happens after the hackathon ends ?",
+      answer:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae rem ad quod ea maxime qui,",
+    },
+    {
+      id: 6,
+      question: "Can I work on a project I started before the hackathon?",
+      answer:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae rem ad quod ea maxime qui,",
+    },
+  ],
 };
 
 export default data;

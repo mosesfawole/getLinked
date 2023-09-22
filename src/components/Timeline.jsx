@@ -1,5 +1,10 @@
 const Timeline = () => {
-  return <div>Timeline</div>;
+  return (
+    <div>
+      <div className="first"></div>
+      <div className="second"></div>
+    </div>
+  );
 };
 
 export default Timeline;
