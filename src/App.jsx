@@ -7,7 +7,7 @@ import Introduction from "./components/Introduction";
 import Partners from "./components/Partners";
 import Rewards from "./components/Rewards";
 import Rules from "./components/Rules";
-// import Timeline from "./components/Timeline";
+import Timeline from "./components/Timeline";
 // import { Route } from "react-router-dom";
 function App() {
   return (
@@ -22,8 +22,7 @@ function App() {
       <hr />
       <Criteria />
       <Faq />
-      {/*  */}
-      {/*  */}
+      <Timeline />
       <Rewards />
       <Partners />
       <Footer />

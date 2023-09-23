@@ -5,7 +5,6 @@ const Footer = () => {
   const { footer } = data;
   return (
     <div>
-      Footer
       <div className="px-8 py-8  flex flex-col gap-8 md:flex-row md:justify-evenly ">
         <div className="top  basis-1/3">
           <div className="logo">

@@ -10,12 +10,12 @@ import criteriaImg from "../assets/8046554 1.svg";
 import trophy from "../assets/9486889 1.svg";
 import rewardImg from "../assets/Rewards.svg";
 import faqImage from "../assets/cwok_casual_21 1.svg";
-// import libertyWhite from "../assets/Liberty company logo white colour.svg";
-// import libertyPay from "../assets/Liberty company logo white.svg";
-// import winWise from "../assets/Winwise logo White colour 1.svg";
-// import whisperLogo from "../assets/wisper logo white.svg";
-// import payboxLogo from "../assets/Paybox.svg";
-// import vuzualPlus from "../assets/Vizual Plus.svg";
+import libertyWhite from "../assets/Liberty company logo white colour.svg";
+import libertyPay from "../assets/Liberty company logo white.svg";
+import winWise from "../assets/Winwise logo White colour 1.svg";
+import whisperLogo from "../assets/wisper logo white.svg";
+import payboxLogo from "../assets/Paybox.svg";
+import vuzualPlus from "../assets/Vizual Plus.svg";
 import allLogo from "../assets/Partner and sponsors section.svg";
 
 import insta from "../assets/mdi_instagram.svg";
@@ -59,7 +59,7 @@ const data = {
     banner: banner,
   },
   intro: {
-    title: "Introduction to getlinked tech",
+    title: "Introduction to getlinked ",
     text: "Our tech hackathon is a melting pot of visionaries, and its purpose is asclear as day: to shape the future. Whether you're a coding genius, a design maverick, or a concept wizard, you'll have the chance to transform your ideas into reality. Solving real-world problems, pushing the boundaries of technology, and creating solutions that can change the world,that's what we're all about!",
     image: bigIdea,
     arrow: arrow,

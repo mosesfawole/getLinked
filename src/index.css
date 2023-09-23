@@ -47,3 +47,8 @@ hr {
   background-position: right;
   background-repeat: no-repeat;
 }
+
+.intro {
+  background-image: url("./assets/star.svg");
+  background-repeat: no-repeat;
+}
