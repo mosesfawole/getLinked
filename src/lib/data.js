@@ -26,7 +26,6 @@ import linkedin from "../assets/linkedin.svg";
 
 import locationIcon from "../assets/location.svg";
 import phone from "../assets/phone.svg";
-
 const data = {
   navbar: {
     links: [
