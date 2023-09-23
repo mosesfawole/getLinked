@@ -4,7 +4,7 @@ const ContactPage = () => {
     <div>
       <div className="bg-page md:flex ">
         <div className="contact mt-8 md:mt-0 flex flex-col gap-4">
-          <div className="title invisible md:visible">
+          <div className="title hidden md:block">
             <h1 className="font-body font-extrabold text-common">
               Get in touch
             </h1>
@@ -67,7 +67,7 @@ const ContactPage = () => {
               id="message"
               cols="30"
               rows="10"
-              placeholder="message"
+              placeholder="Message"
             ></textarea>
 
             <button
