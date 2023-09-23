@@ -1,8 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import data from "../lib/data";
 import { useState } from "react";
 import Button from "./Button";
+
 const Header = () => {
+  const location = useLocation();
   const { navbar } = data;
 
   const [showMenu, setShowMenu] = useState(false);
@@ -42,7 +44,7 @@ const Header = () => {
                 {navbar.links.map((link, index) => (
                   <li key={index}>
                     <Link
-                      to="/"
+                      to={link.url}
                       className="font-inter font-medium text-lg  capitalize"
                     >
                       {link.text}
@@ -69,10 +71,15 @@ const Header = () => {
               {navbar.links.map((link, index) => (
                 <li key={index}>
                   <Link
-                    to="/"
-                    className="font-body font-regular text-lg  capitalize"
+                    to={link.url}
+                    className={"font-body font-medium text-[16px]  capitalize"}
                   >
-                    {link.text}
+                    {location.pathname === "/contact" &&
+                    link.text === "contact" ? (
+                      <p className="gradient-text">{link.text}</p>
+                    ) : (
+                      <p className="font-body">{link.text}</p>
+                    )}
                   </Link>
                 </li>
               ))}

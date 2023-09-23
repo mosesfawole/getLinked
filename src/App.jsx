@@ -1,31 +1,19 @@
-import Criteria from "./components/Criteria";
-import Faq from "./components/Faq";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Introduction from "./components/Introduction";
-import Partners from "./components/Partners";
-import Rewards from "./components/Rewards";
-import Rules from "./components/Rules";
-import Timeline from "./components/Timeline";
-// import { Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import { Footer, Header } from "./components";
+
+import Home from "./pages/Home";
+import Register from "./pages/Register";
+import ContactPage from "./pages/ContactPage";
 function App() {
   return (
     <>
       <Header />
-      <hr className="" />
-      <Hero />
-      <hr />
-      <Introduction />
-      <hr />
-      <Rules />
-      <hr />
-      <Criteria />
-      <Faq />
-      <Timeline />
-      <Rewards />
-      <Partners />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
+      {/* <Footer /> */}
     </>
   );
 }

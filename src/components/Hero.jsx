@@ -1,6 +1,6 @@
 import data from "../lib/data";
-import Button from "./Button";
-import Star from "./Star";
+import { Button, Star } from "../components";
+import CountdownTimer from "./CountdownTimer";
 
 const Hero = () => {
   const { hero } = data;
@@ -72,16 +72,8 @@ const Hero = () => {
             <div className="absolute right-20  w-2 h-2  md:w-6 md:h-8">
               <Star />
             </div>
-            <div className="countdown flex gap-4 ">
-              <p className="font-unica text-5xl md:text-[64px] md:leading-[85px]">
-                00<span className="font-body text-xs">H</span>
-              </p>
-              <p className="font-unica text-5xl md:text-[64px] md:leading-[85px]">
-                00<span className="font-body text-xs">M</span>
-              </p>
-              <p className="font-unica text-5xl md:text-[64px] md:leading-[85px]">
-                00<span className="font-body text-xs">S</span>
-              </p>
+            <div className="countdown ">
+              <CountdownTimer />
             </div>
           </div>
           <div className="bottom">

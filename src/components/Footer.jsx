@@ -54,7 +54,7 @@ const Footer = () => {
             <h1 className="font-body font-semibold text-common">Contact Us</h1>
           </div>
           {footer.contact.map((item, index) => (
-            <ul className="" key={index}>
+            <ul key={index}>
               <li className="flex gap-4 items-baseline">
                 <span>
                   {" "}
