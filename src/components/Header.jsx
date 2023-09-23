@@ -21,15 +21,14 @@ const Header = () => {
           <button onClick={() => setShowMenu(true)} className="menu-icon">
             <img src="/src/assets/menu.svg" alt="menu-icon" />
           </button>
-          <div className={showMenu ? "navs flex border p-6" : "hidden"}>
+          <div
+            className={
+              showMenu
+                ? "navs bg-[#150e28] w-full transition-all duration-300 flex flex-row-reverse justify-between p-6 z-50  absolute top-0 right-0 bottom-0 left-0"
+                : "hidden "
+            }
+          >
             <div className="close-icon">
-              {/* <button className="border-gradient border-gradient-purple">
-                <img
-                  className="  "
-                  src="/src/assets/close-icon.svg"
-                  alt="close-icon"
-                />
-              </button> */}
               <button onClick={() => setShowMenu(false)}>
                 <img
                   className="  "
@@ -38,7 +37,7 @@ const Header = () => {
                 />
               </button>
             </div>
-            <div className="nav-links">
+            <div className="nav-links mt-14 ">
               <ul className="flex flex-col items-start gap-4">
                 {navbar.links.map((link, index) => (
                   <li key={index}>
@@ -58,7 +57,7 @@ const Header = () => {
       </div>
       <div className="desktop hidden md:flex justify-between items-center p-6">
         <div className="logo">
-          <p className="font-title font-bold text-sm flex">
+          <p className="font-title font-bold text-4xl flex">
             {" "}
             <span className="">get</span>{" "}
             <span className="text-common">linked</span>
