@@ -14,6 +14,7 @@ export default {
         default: "#150E28",
         common: "#D434FE",
         white: "#FFFFFF",
+        page: "#1E1E1E",
       },
     },
   },

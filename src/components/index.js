@@ -11,4 +11,4 @@ export { default as Rewards } from "./Rewards";
 export { default as Rules } from "./Rules";
 export { default as Star } from "./Star";
 export { default as Timeline } from "./Timeline";
-export { default as Contact } from "./Contact";
+
