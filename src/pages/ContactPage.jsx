@@ -1,5 +1,4 @@
 
-
 const ContactPage = () => {
   return (
     <div>
@@ -23,16 +22,7 @@ const ContactPage = () => {
           <div className="text-common">
             Share on
           </div>
-          <div className="flex gap-6 items-center ">
-            <h1 className="font-body text-xs text-common mt-4 ">Follow us</h1>
-            {ContactPage.socialMedia.map((logo, index) => (
-              <ul className="mt-2" key={index}>
-                <li>
-                  <img src={logo} alt="logo" />{" "}
-                </li>
-              </ul>
-            ))}
-          </div>
+          
         </div>
         <div className="flex flex-col justify-center items-center">
           <div className="title font-title text-common font-bold">
